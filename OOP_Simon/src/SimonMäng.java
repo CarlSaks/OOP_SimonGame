@@ -13,7 +13,7 @@ public class SimonMäng {
 
     // genereeritakse numrid, näidatakse terminalis ja tasemest oleneva ajaga
     //      seejärel kaotatakse arv
-    public void mänguOsa(Mangija mangija) throws InterruptedException {
+    public void mänguOsa(Simon.Mangija mangija) throws InterruptedException {
         appi.clear();
         genereeriNumbrid( ++this.tase);
         näitaMänguNr( appi.toString());
